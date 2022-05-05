@@ -212,7 +212,7 @@ button:active {
 
 /* Inicio media */
 
-@media (max-width: 360px) {
+@media (max-width: 850px) {
 
     html {
       font-size: 80%;
