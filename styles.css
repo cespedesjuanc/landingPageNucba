@@ -318,10 +318,49 @@ button:active {
 
 /* Fin section clientes */
 
+/* Inicio seccion Contacto */
+.item1 { grid-area: contacto; }
+.item2 { grid-area: detalle_1; }
+.item3 { grid-area: detalle_2; }
+.item4 { grid-area: redes; }
+.item5 { 
+    grid-area: logo; 
+    background-color: black;
+}
+.item6 { grid-area: imagen; }
+
+.contactos_container {
+    display: grid;
+    grid-template-areas:
+    'contacto contacto contacto contacto imagen imagen'
+    'detalle_1 detalle_1 detalle_2 detalle_2 imagen imagen'
+    'detalle_1 detalle_1 detalle_2 detalle_2 imagen imagen'
+    'redes redes redes redes imagen imagen'
+    'logo logo logo logo logo logo';
+    gap: 10px;
+    background-color: white;
+    /*padding: 10px;*/
+}
+
+.contactos_container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
 
 
 
+#mapa {
+    width: 700px;
+    height: 600px;
+}
 
+#logo_neonDB {
+    width: 90px;
+    height: 90px;
+}
+
+/* Fin seccion Contacto */
 
 
 /* Inicio media */
