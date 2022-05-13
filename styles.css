@@ -322,7 +322,16 @@ button:active {
 .item1 { grid-area: contacto; }
 .item2 { grid-area: detalle_1; }
 .item3 { grid-area: detalle_2; }
-.item4 { grid-area: redes; }
+
+.item4 { 
+    grid-area: redes; 
+}
+
+.item4 a { 
+    text-decoration: none;
+    padding: 10px; 
+}
+
 .item5 { 
     grid-area: logo; 
     background-color: black;
@@ -358,6 +367,18 @@ button:active {
 #logo_neonDB {
     width: 90px;
     height: 90px;
+}
+
+.fa-facebook {
+    color: #4267B2;
+}
+
+.fa-twitter {
+    color: #4267B2;
+}
+
+.fa-instagram {
+    color: #e1306c;
 }
 
 /* Fin seccion Contacto */
@@ -530,6 +551,16 @@ button:active {
     width: 40px;
     height: 40px;
 }
+
+.item4 a { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px; 
+}
+
 /* fin section contactos */
 
 }
