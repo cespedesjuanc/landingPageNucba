@@ -391,7 +391,6 @@ button:active {
     
     .nav-list li a{
        font-size: 30px;
-         
     }
     /* Fin Header */
 
@@ -511,6 +510,27 @@ button:active {
 
 /* fin section clientes */
 
+/* Inicio section contactos */
+.contactos_container {
+    grid-template-areas:
+    'contacto'
+    'detalle_1'
+    'detalle_2'
+    'imagen'
+    'redes'
+    'logo';
+}
+
+#mapa {
+    width: 350px;
+    height: 200px;
+}
+
+#logo_neonDB {
+    width: 40px;
+    height: 40px;
+}
+/* fin section contactos */
 
 }
 /* Fin media */
