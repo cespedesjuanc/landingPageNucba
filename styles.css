@@ -274,7 +274,7 @@ button:active {
  #clientes {
     background: greenyellow;
     width: 100%;
-    margin: 0  auto;
+    padding: 80px;
 }
 
 .clientes_titulos {
@@ -302,8 +302,6 @@ button:active {
    align-items: center;
    width: 100%;
    height: auto;
-   /*margin: 40px auto;*/;
-    
 }
 
 .clientes_detalle {
@@ -312,7 +310,6 @@ button:active {
     justify-content: center;
     align-items: center;
     margin: 40px;
-   
 }
 
 /* Fin section clientes */
