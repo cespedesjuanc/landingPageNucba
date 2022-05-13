@@ -319,7 +319,15 @@ button:active {
 /* Fin section clientes */
 
 /* Inicio seccion Contacto */
-.item1 { grid-area: contacto; }
+.item1 {
+    grid-area: contacto; 
+}
+
+.item1 h2{
+    padding-top: 40px; 
+}
+
+
 .item2 { grid-area: detalle_1; }
 .item3 { grid-area: detalle_2; }
 
