@@ -549,8 +549,13 @@ button:active {
     'redes'
     'logo';
 }
-
+/*
 #mapa {
+    width: 350px;
+    height: 200px;
+}
+*/
+.item6 iframe {
     width: 350px;
     height: 200px;
 }
